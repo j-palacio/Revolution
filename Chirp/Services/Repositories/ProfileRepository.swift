@@ -1,6 +1,6 @@
 //
 //  ProfileRepository.swift
-//  Chirp
+//  Revolution
 //
 //  Created by Juan Palacio on 08.12.2025.
 //

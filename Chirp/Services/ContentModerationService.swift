@@ -1,6 +1,6 @@
 //
 //  ContentModerationService.swift
-//  Chirp
+//  Revolution
 //
 //  Created by Claude on 07.12.2025.
 //

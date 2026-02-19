@@ -1,6 +1,6 @@
 //
 //  SlideMenuView.swift
-//  Chirp
+//  Revolution
 //
 //  Created by Juan Palacio on 21.07.202425.11.2023.
 //
@@ -111,10 +111,10 @@ struct SlideMenuView: View {
                     
                     TabButton(title: "Monetization", image: "dollarsign.circle", destination: ProfileView())
                     
-                    //twitter ads
+                    //promoted content
                     Divider()
-                    
-                    TabButton(title: "Twitter Ads", image: "square.and.arrow.up", destination: ProfileView())
+
+                    TabButton(title: "Promoted", image: "square.and.arrow.up", destination: ProfileView())
                     
                 }
                 .padding()

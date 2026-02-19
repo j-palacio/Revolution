@@ -1,6 +1,6 @@
 //
 //  ViewHeader.swift
-//  Chirp
+//  Revolution
 //
 //  Created by Juan Palacio on 21.07.202424.11.2023.
 //
@@ -46,8 +46,8 @@ struct ViewHeader: View {
             //based on the view we are gonna render different hero element/s
             switch view{
             case "feed":
-                //twitter logo
-                TwitterLogo(frameWidth: 27, paddingTop: 0).onTapGesture {
+                //app logo
+                RevolutionLogo(frameWidth: 27, paddingTop: 0).onTapGesture {
                     print("test")
                 }
             case "search":
@@ -62,8 +62,8 @@ struct ViewHeader: View {
                 Text("Messages")
                     .fontWeight(.bold)
             default:
-                //twitter logo
-                TwitterLogo(frameWidth: 27, paddingTop: 0)
+                //app logo
+                RevolutionLogo(frameWidth: 27, paddingTop: 0)
             }
             
             Spacer()

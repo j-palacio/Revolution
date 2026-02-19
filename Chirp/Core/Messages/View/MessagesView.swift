@@ -1,6 +1,6 @@
 //
 //  MessagesView.swift
-//  Chirp
+//  Revolution
 //
 //  Created by Juan Palacio on 21.07.202424.11.2023.
 //
@@ -23,7 +23,7 @@ struct MessagesView: View {
                         .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
                         .fontWeight(.bold)
                     
-                    Text("Drop a line, share posts and more with private conversations between you and others on Twitter")
+                    Text("Drop a line, share posts and more with private conversations between you and others on Revolution")
                         .font(.callout)
                         .foregroundStyle(.secondary)
                     

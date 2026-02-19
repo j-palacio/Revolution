@@ -1,6 +1,6 @@
 //
 //  SignUpView.swift
-//  Chirp
+//  Revolution
 //
 //  Created by Juan Palacio on 21.07.202422.11.2023.
 //
@@ -17,8 +17,8 @@ struct SignUpView: View {
     var body: some View {
         NavigationStack {
             VStack {
-                // twitter logo
-                TwitterLogo(frameWidth: 30, paddingTop: 15)
+                // app logo
+                RevolutionLogo(frameWidth: 30, paddingTop: 15)
                 Spacer()
                 // hero text
                 Text("See what's happening in the world right now")
@@ -112,7 +112,7 @@ struct RegistrationFormView: View {
 
     var body: some View {
         VStack(spacing: 20) {
-            TwitterLogo(frameWidth: 30, paddingTop: 15)
+            RevolutionLogo(frameWidth: 30, paddingTop: 15)
 
             Text("Create your account")
                 .font(.title2)

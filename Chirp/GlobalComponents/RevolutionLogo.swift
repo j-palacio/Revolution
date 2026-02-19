@@ -1,27 +1,27 @@
 //
-//  TwitterLogo.swift
-//  Chirp
+//  RevolutionLogo.swift
+//  Revolution
 //
 //  Created by Juan Palacio on 21.07.202424.11.2023.
 //
 
 import SwiftUI
 
-struct TwitterLogo: View {
+struct RevolutionLogo: View {
     var frameWidth : CGFloat
     var paddingTop : CGFloat
     var body: some View {
-        
-        Image("TwitterLogo")
+
+        Image("RevolutionLogo")
             .resizable()
             .aspectRatio(contentMode: .fit)
             .frame(width: frameWidth)
             .padding(.top, paddingTop)
-          
-      
+
+
     }
 }
 
 #Preview {
-    TwitterLogo(frameWidth: 30, paddingTop: 15)
+    RevolutionLogo(frameWidth: 30, paddingTop: 15)
 }

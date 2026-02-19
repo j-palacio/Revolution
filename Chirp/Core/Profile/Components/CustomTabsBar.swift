@@ -1,6 +1,6 @@
 //
 //  CustomTabsBar.swift
-//  Chirp
+//  Revolution
 //
 //  Created by Juan Palacio on 21.07.202430.11.2023.
 //

@@ -19,7 +19,7 @@
 		1725D7712B1385DB00BC0813 /* RetweetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1725D7702B1385DB00BC0813 /* RetweetModel.swift */; };
 		1725D7732B13879800BC0813 /* PostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1725D7722B13879800BC0813 /* PostViewModel.swift */; };
 		172E21752B2F57AA00E8DB1A /* TrendsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172E21742B2F57AA00E8DB1A /* TrendsModel.swift */; };
-		1763E8D02B0BDA6600F38915 /* Chirp_app.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1763E8CF2B0BDA6600F38915 /* Chirp_app.swift */; };
+		1763E8D02B0BDA6600F38915 /* Revolution_app.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1763E8CF2B0BDA6600F38915 /* Revolution_app.swift */; };
 		1763E8D22B0BDA6600F38915 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1763E8D12B0BDA6600F38915 /* ContentView.swift */; };
 		1763E8D42B0BDA6700F38915 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1763E8D32B0BDA6700F38915 /* Assets.xcassets */; };
 		1763E8D72B0BDA6700F38915 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1763E8D62B0BDA6700F38915 /* Preview Assets.xcassets */; };
@@ -28,7 +28,7 @@
 		17E6529D2B35F74F00AE555A /* CommunityCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E6529C2B35F74F00AE555A /* CommunityCard.swift */; };
 		17E6529F2B3600B900AE555A /* NotificationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E6529E2B3600B900AE555A /* NotificationModel.swift */; };
 		17E652A22B3605DD00AE555A /* NotificationCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E652A12B3605DD00AE555A /* NotificationCard.swift */; };
-		17FB4A742B10AB81008C68FE /* TwitterLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FB4A732B10AB81008C68FE /* TwitterLogo.swift */; };
+		17FB4A742B10AB81008C68FE /* RevolutionLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FB4A732B10AB81008C68FE /* RevolutionLogo.swift */; };
 		17FB4A762B10AED4008C68FE /* FeedScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FB4A752B10AED4008C68FE /* FeedScreen.swift */; };
 		17FB4A792B10F1C2008C68FE /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FB4A782B10F1C2008C68FE /* TabView.swift */; };
 		17FB4A7E2B10F301008C68FE /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FB4A7D2B10F301008C68FE /* SearchView.swift */; };
@@ -87,8 +87,8 @@
 		1725D7702B1385DB00BC0813 /* RetweetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetweetModel.swift; sourceTree = "<group>"; };
 		1725D7722B13879800BC0813 /* PostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewModel.swift; sourceTree = "<group>"; };
 		172E21742B2F57AA00E8DB1A /* TrendsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendsModel.swift; sourceTree = "<group>"; };
-		1763E8CC2B0BDA6600F38915 /* Chirp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chirp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1763E8CF2B0BDA6600F38915 /* Chirp_app.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chirp_app.swift; sourceTree = "<group>"; };
+		1763E8CC2B0BDA6600F38915 /* Revolution.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Revolution.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1763E8CF2B0BDA6600F38915 /* Revolution_app.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Revolution_app.swift; sourceTree = "<group>"; };
 		1763E8D12B0BDA6600F38915 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1763E8D32B0BDA6700F38915 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1763E8D62B0BDA6700F38915 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -97,7 +97,7 @@
 		17E6529C2B35F74F00AE555A /* CommunityCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityCard.swift; sourceTree = "<group>"; };
 		17E6529E2B3600B900AE555A /* NotificationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationModel.swift; sourceTree = "<group>"; };
 		17E652A12B3605DD00AE555A /* NotificationCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCard.swift; sourceTree = "<group>"; };
-		17FB4A732B10AB81008C68FE /* TwitterLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterLogo.swift; sourceTree = "<group>"; };
+		17FB4A732B10AB81008C68FE /* RevolutionLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RevolutionLogo.swift; sourceTree = "<group>"; };
 		17FB4A752B10AED4008C68FE /* FeedScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedScreen.swift; sourceTree = "<group>"; };
 		17FB4A782B10F1C2008C68FE /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
 		17FB4A7D2B10F301008C68FE /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
@@ -155,7 +155,7 @@
 		17085E9B2B0E638300B3D092 /* GlobalComponents */ = {
 			isa = PBXGroup;
 			children = (
-				17FB4A732B10AB81008C68FE /* TwitterLogo.swift */,
+				17FB4A732B10AB81008C68FE /* RevolutionLogo.swift */,
 				1BA47C112EE4400100A59ACC /* ReportSheetView.swift */,
 				1C011A7873B492A92AF0C67D /* ImageCropperView.swift */,
 			);
@@ -314,7 +314,7 @@
 		1763E8C32B0BDA6600F38915 = {
 			isa = PBXGroup;
 			children = (
-				1763E8CE2B0BDA6600F38915 /* Chirp */,
+				1763E8CE2B0BDA6600F38915 /* Revolution */,
 				1BA47BF52EE3EEC900A59ACC /* Frameworks */,
 				1763E8CD2B0BDA6600F38915 /* Products */,
 			);
@@ -323,12 +323,12 @@
 		1763E8CD2B0BDA6600F38915 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1763E8CC2B0BDA6600F38915 /* Chirp.app */,
+				1763E8CC2B0BDA6600F38915 /* Revolution.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1763E8CE2B0BDA6600F38915 /* Chirp */ = {
+		1763E8CE2B0BDA6600F38915 /* Revolution */ = {
 			isa = PBXGroup;
 			children = (
 				17085EA22B0E63AA00B3D092 /* Extensions */,
@@ -336,7 +336,7 @@
 				17085EA12B0E63A700B3D092 /* Model */,
 				17085EA02B0E63A300B3D092 /* Services */,
 				17085E9C2B0E639200B3D092 /* Core */,
-				1763E8CF2B0BDA6600F38915 /* Chirp_app.swift */,
+				1763E8CF2B0BDA6600F38915 /* Revolution_app.swift */,
 				1763E8D12B0BDA6600F38915 /* ContentView.swift */,
 				1763E8D32B0BDA6700F38915 /* Assets.xcassets */,
 				1763E8D52B0BDA6700F38915 /* Preview Content */,
@@ -564,9 +564,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1763E8CB2B0BDA6600F38915 /* Chirp */ = {
+		1763E8CB2B0BDA6600F38915 /* Revolution */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1763E8DA2B0BDA6700F38915 /* Build configuration list for PBXNativeTarget "Chirp" */;
+			buildConfigurationList = 1763E8DA2B0BDA6700F38915 /* Build configuration list for PBXNativeTarget "Revolution" */;
 			buildPhases = (
 				1763E8C82B0BDA6600F38915 /* Sources */,
 				1763E8C92B0BDA6600F38915 /* Frameworks */,
@@ -576,7 +576,7 @@
 			);
 			dependencies = (
 			);
-			name = Chirp;
+			name = Revolution;
 			packageProductDependencies = (
 				1BA47BEB2EE3E39000A59ACC /* Auth */,
 				1BA47BED2EE3E39000A59ACC /* Functions */,
@@ -585,8 +585,8 @@
 				1BA47BF32EE3E39000A59ACC /* Storage */,
 				1BA47BF62EE3EEC900A59ACC /* Supabase */,
 			);
-			productName = "Twitter Clone";
-			productReference = 1763E8CC2B0BDA6600F38915 /* Chirp.app */;
+			productName = "Revolution";
+			productReference = 1763E8CC2B0BDA6600F38915 /* Revolution.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -604,7 +604,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1763E8C72B0BDA6600F38915 /* Build configuration list for PBXProject "Chirp" */;
+			buildConfigurationList = 1763E8C72B0BDA6600F38915 /* Build configuration list for PBXProject "Revolution" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -620,7 +620,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1763E8CB2B0BDA6600F38915 /* Chirp */,
+				1763E8CB2B0BDA6600F38915 /* Revolution */,
 			);
 		};
 /* End PBXProject section */
@@ -671,9 +671,9 @@
 				17FB4A8E2B10F548008C68FE /* MessagesView.swift in Sources */,
 				17FB4A792B10F1C2008C68FE /* TabView.swift in Sources */,
 				170A35AE2B1908A5006F4AE3 /* CustomTabsBar.swift in Sources */,
-				17FB4A742B10AB81008C68FE /* TwitterLogo.swift in Sources */,
+				17FB4A742B10AB81008C68FE /* RevolutionLogo.swift in Sources */,
 				172E21752B2F57AA00E8DB1A /* TrendsModel.swift in Sources */,
-				1763E8D02B0BDA6600F38915 /* Chirp_app.swift in Sources */,
+				1763E8D02B0BDA6600F38915 /* Revolution_app.swift in Sources */,
 				1725D76F2B137F3000BC0813 /* CommentModel.swift in Sources */,
 				170A35AC2B190663006F4AE3 /* TabButton.swift in Sources */,
 				17E6529D2B35F74F00AE555A /* CommunityCard.swift in Sources */,
@@ -834,7 +834,7 @@
 				DEVELOPMENT_TEAM = WJ73377FX8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = Chirp;
+				INFOPLIST_KEY_CFBundleDisplayName = Revolution;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -846,7 +846,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Chirp.social.media;
+				PRODUCT_BUNDLE_IDENTIFIER = Revolution.social.media;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -865,7 +865,7 @@
 				DEVELOPMENT_TEAM = WJ73377FX8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = Chirp;
+				INFOPLIST_KEY_CFBundleDisplayName = Revolution;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -877,7 +877,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Chirp.social.media;
+				PRODUCT_BUNDLE_IDENTIFIER = Revolution.social.media;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -888,7 +888,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1763E8C72B0BDA6600F38915 /* Build configuration list for PBXProject "Chirp" */ = {
+		1763E8C72B0BDA6600F38915 /* Build configuration list for PBXProject "Revolution" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1763E8D82B0BDA6700F38915 /* Debug */,
@@ -897,7 +897,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1763E8DA2B0BDA6700F38915 /* Build configuration list for PBXNativeTarget "Chirp" */ = {
+		1763E8DA2B0BDA6700F38915 /* Build configuration list for PBXNativeTarget "Revolution" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1763E8DB2B0BDA6700F38915 /* Debug */,

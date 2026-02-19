@@ -1,6 +1,6 @@
 //
 //  CommunityView.swift
-//  Chirp
+//  Revolution
 //
 //  Created by Juan Palacio on 21.07.202424.11.2023.
 //
@@ -18,7 +18,7 @@ struct CommunityView: View {
             Divider()
             //communities
             ScrollView{
-                CommunityCard(image: "TwitterLogo", title: "Livestreaming on Twitter", numberOfMembers: "12.4M members")
+                CommunityCard(image: "RevolutionLogo", title: "Livestreaming on Revolution", numberOfMembers: "12.4M members")
                 CommunityCard(image: "AiCommunityImage", title: "Join the new AI Community", numberOfMembers: "342.4M members")
                 CommunityCard(image: "GamingCommunityImage", title: "Gaming Communities", numberOfMembers: "153k members")
                 

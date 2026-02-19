@@ -1,6 +1,6 @@
 //
 //  SearchView.swift
-//  Chirp
+//  Revolution
 //
 //  Created by Juan Palacio on 21.07.202424.11.2023.
 //
@@ -111,7 +111,7 @@ struct SearchResultRow: View {
     @EnvironmentObject var authManager: AuthManager
     @State private var showProfile = false
 
-    private let twitterBlue = Color(UIColor(red: 29/255, green: 161/255, blue: 242/255, alpha: 1.0))
+    private let brandBlue = Color(UIColor(red: 29/255, green: 161/255, blue: 242/255, alpha: 1.0))
 
     var body: some View {
         Button {
@@ -143,7 +143,7 @@ struct SearchResultRow: View {
 
                         if profile.isVerified {
                             Image(systemName: "checkmark.seal.fill")
-                                .foregroundColor(twitterBlue)
+                                .foregroundColor(brandBlue)
                                 .font(.caption)
                         }
 

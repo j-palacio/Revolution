@@ -1,11 +1,10 @@
-# Chirp
+# Revolution
 
 
 
+This project is the Revolution App developed using Xcode, Swift, SwiftUI, and SF Symbols. The goal of the project is to build a feature-rich social media platform with a modern, polished UI.
 
-This project is the Chirp App developed using Xcode, Swift, SwiftUI, and SF Symbols. The goal of the project is to replicate key UI features of the ex-Twitter platform.
-
-## 🔗 Developer
+## Developer
 
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/j-palacio/)
 
@@ -13,17 +12,17 @@ This project is the Chirp App developed using Xcode, Swift, SwiftUI, and SF Symb
 
 ## Key Features
 
-Chirp is focused on the user interface, providing a visual representation of key Twitter features. Please note that it is a UI-only project, and there is no backend or business logic implemented. The goal is to showcase the UI design and animations.
+Revolution is focused on the user interface, providing a visual representation of key social media features. Please note that it is a UI-only project, and there is no backend or business logic implemented. The goal is to showcase the UI design and animations.
 
-- **ChirpTwitter Splash Screen:** Engage users with a visually appealing Twitter-themed splash screen upon launching the application.
+- **Splash Screen:** Engage users with a visually appealing branded splash screen upon launching the application.
 
 - **Sign In & Sign Up Screens:** Create a seamless user onboarding experience with dedicated screens for signing in and signing up.
 
-- **Feed View:** Experience a dynamic feed view that resembles Twitter's timeline, showcasing tweets and real-time updates.
+- **Feed View:** Experience a dynamic feed view showcasing posts and real-time updates.
 
-- **Profile Screen with Animations:** Explore an animated user profile screen that includes profile information, tweets, and other relevant details.
+- **Profile Screen with Animations:** Explore an animated user profile screen that includes profile information, posts, and other relevant details.
 
-- **Notifications Screen:** View a notifications screen designed to resemble Twitter's notification center, displaying real-time interactions.
+- **Notifications Screen:** View a notifications screen displaying real-time interactions.
 
 - **Communities Screen:** Navigate through a visually appealing communities screen, offering a glimpse of different user communities.
 
@@ -50,20 +49,20 @@ width="200" hspace="10" vspace="10">
 
 Before running the application, ensure you have Xcode installed and follow the steps below:
 
-### Twitter Clone with SwiftUI
+### Revolution Social Media Platform with SwiftUI
 
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/j-palacio/chirp.git
-     
+   git clone https://github.com/j-palacio/revolution.git
+
 1. Open the Xcode project file:
 
    ```bash
-   cd chirp
-   open Chirp.xcodeproj
-    
-## Screnshots
+   cd revolution
+   open Revolution.xcodeproj
+
+## Screenshots
 
 <img src="https://github.com/jurmadani/TwitterClone/assets/102948701/c99178ca-5ee0-4c9c-9f6b-af0ae267f63b.jpg"
 width="200" hspace="10" vspace="10">
@@ -88,7 +87,7 @@ https://github.com/jurmadani/TwitterClone/assets/102948701/69b20b8a-e0b4-4996-a2
 
 ## Project Approach
 
-- **Understanding Project Requirements:** Conducted a thorough analysis of project requirements, focusing on key features and functionalities for the SwiftUI Twitter Clone application.
+- **Understanding Project Requirements:** Conducted a thorough analysis of project requirements, focusing on key features and functionalities for the SwiftUI social media application.
 
 - **Evaluation of Technologies:** Explored and assessed technologies and frameworks suitable for SwiftUI, Swift, and SF Symbols to ensure optimal cross-platform compatibility, performance, and an enhanced developer experience.
 
@@ -98,18 +97,18 @@ https://github.com/jurmadani/TwitterClone/assets/102948701/69b20b8a-e0b4-4996-a2
 
 - **Git for Collaboration:** Employed Git for collaborative development, effective code management, and tracking changes. Utilized version control to streamline collaboration among project contributors.
 
-This approach ensured a structured development process, leveraging SwiftUI and Swift to create a visually appealing Twitter Clone with a focus on modularity, maintainability, and collaboration.
+This approach ensured a structured development process, leveraging SwiftUI and Swift to create a visually appealing social media platform with a focus on modularity, maintainability, and collaboration.
 
 
 ## If time was infinite
  Given infinite time, here are some exciting features I would add to enhance the user experience:
 - Enhanced Feed Customization: Implement advanced feed customization options, allowing users to personalize their timelines further.
 
-- Rich Media Support: Introduce support for sharing and viewing rich media content, such as videos and audio, within tweets.
+- Rich Media Support: Introduce support for sharing and viewing rich media content, such as videos and audio, within posts.
 
 - Advanced Profile Features: Expand profile customization with additional features, including themes, enhanced bio options, and media galleries.
 
-- Real-Time Notifications: Improve the real-time aspect by implementing even more instant notifications for likes, retweets, and new followers.
+- Real-Time Notifications: Improve the real-time aspect by implementing even more instant notifications for likes, reposts, and new followers.
 
 - Interactive User Interface: Enhance the overall user interface with interactive gestures, animations, and transitions for a more engaging experience.
 
@@ -117,11 +116,11 @@ This approach ensured a structured development process, leveraging SwiftUI and S
 
 - Accessibility Features: Invest in accessibility features to ensure an inclusive experience for users with diverse needs.
 
-- Machine Learning-powered Recommendations: Implement machine learning algorithms for personalized tweet recommendations based on user preferences and interactions.
+- Machine Learning-powered Recommendations: Implement machine learning algorithms for personalized post recommendations based on user preferences and interactions.
 
 - Localized Content Support: Add support for multiple languages and localization to make the app accessible to a global audience.
 
-These features would not only elevate the user experience but also enrich the functionality of the SwiftUI Twitter Clone, providing users with a more dynamic and feature-rich social media platform.
+These features would not only elevate the user experience but also enrich the functionality of the Revolution platform, providing users with a more dynamic and feature-rich social media experience.
 
 ## Contributing
 Whether you use this project, have learned something from it, or just like it, please consider supporting it by buying me a coffee, so I can dedicate more time on building open-source projects like this :)
@@ -131,13 +130,7 @@ Whether you use this project, have learned something from it, or just like it, p
 </a>
 
 ## License
-The Twitter Clone is open-source and released under the [GNU General Public License](https://choosealicense.com/licenses/gpl-3.0/)
+Revolution is open-source and released under the [GNU General Public License](https://choosealicense.com/licenses/gpl-3.0/)
 
 ## Contact
-For any inquiries or questions regarding the Chirp application, please contact me at jaypalacio95@gmail.com
-
-
-
-
-
-    
+For any inquiries or questions regarding the Revolution application, please contact me at jaypalacio95@gmail.com

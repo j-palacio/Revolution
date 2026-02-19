@@ -1,6 +1,6 @@
 //
 //  ReportSheetView.swift
-//  Chirp
+//  Revolution
 //
 //  Created by Juan Palacio on 07.12.2025.
 //
@@ -130,7 +130,7 @@ struct ReportSheetView: View {
                 .font(.title2)
                 .fontWeight(.bold)
 
-            Text("Thank you for helping keep Chirp safe. We'll review this report and take appropriate action.")
+            Text("Thank you for helping keep Revolution safe. We'll review this report and take appropriate action.")
                 .font(.subheadline)
                 .foregroundColor(.secondary)
                 .multilineTextAlignment(.center)

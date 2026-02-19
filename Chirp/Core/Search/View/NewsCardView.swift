@@ -1,6 +1,6 @@
 //
 //  NewsCardView.swift
-//  Chirp
+//  Revolution
 //
 //  Created by Juan Palacio on 10.12.2025.
 //

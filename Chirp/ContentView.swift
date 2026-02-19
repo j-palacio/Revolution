@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  Chirp
+//  Revolution
 //
 //  Created by Juan Palacio on 21.07.202420.11.2023.
 //
@@ -12,7 +12,7 @@ struct ContentView: View {
     var body: some View {
         
         VStack {
-            Image("TwitterLogo")
+            Image("RevolutionLogo")
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 30)

@@ -1,6 +1,6 @@
 //
 //  ScrollViewReaderFeed.swift
-//  Chirp
+//  Revolution
 //
 //  Created by Juan Palacio on 21.07.202427.11.2023.
 //

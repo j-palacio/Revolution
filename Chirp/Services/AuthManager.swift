@@ -144,7 +144,7 @@ final class AuthManager: ObservableObject {
         do {
             try await supabase.auth.signInWithOAuth(
                 provider: .google,
-                redirectTo: URL(string: "chirp://auth/callback")
+                redirectTo: URL(string: "revolution://auth/callback")
             )
         } catch {
             self.authError = error.localizedDescription

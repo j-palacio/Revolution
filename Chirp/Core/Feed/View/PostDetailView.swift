@@ -1,6 +1,6 @@
 //
 //  PostDetailView.swift
-//  Chirp
+//  Revolution
 //
 //  Created by Claude on 07.12.2025.
 //
@@ -20,7 +20,7 @@ struct PostDetailView: View {
     @State private var errorMessage: String?
 
     private let postRepository = PostRepository()
-    private let twitterBlue = Color(UIColor(red: 29/255, green: 161/255, blue: 242/255, alpha: 1.0))
+    private let brandBlue = Color(UIColor(red: 29/255, green: 161/255, blue: 242/255, alpha: 1.0))
 
     var body: some View {
         NavigationStack {
@@ -101,7 +101,7 @@ struct PostDetailView: View {
                             .fontWeight(.bold)
                         if post.author?.isVerified == true {
                             Image(systemName: "checkmark.seal.fill")
-                                .foregroundColor(twitterBlue)
+                                .foregroundColor(brandBlue)
                                 .font(.caption)
                         }
                         if post.author?.isCuratedVoice == true {
@@ -188,11 +188,11 @@ struct PostDetailView: View {
             } label: {
                 if isPosting {
                     ProgressView()
-                        .tint(twitterBlue)
+                        .tint(brandBlue)
                 } else {
                     Text("Reply")
                         .fontWeight(.semibold)
-                        .foregroundColor(newComment.trimmingCharacters(in: .whitespaces).isEmpty ? .gray : twitterBlue)
+                        .foregroundColor(newComment.trimmingCharacters(in: .whitespaces).isEmpty ? .gray : brandBlue)
                 }
             }
             .disabled(newComment.trimmingCharacters(in: .whitespaces).isEmpty || isPosting)
@@ -246,7 +246,7 @@ struct PostDetailView: View {
 
 struct CommentRowView: View {
     let comment: Comment
-    private let twitterBlue = Color(UIColor(red: 29/255, green: 161/255, blue: 242/255, alpha: 1.0))
+    private let brandBlue = Color(UIColor(red: 29/255, green: 161/255, blue: 242/255, alpha: 1.0))
 
     var body: some View {
         HStack(alignment: .top, spacing: 10) {
@@ -274,7 +274,7 @@ struct CommentRowView: View {
 
                     if comment.author?.isVerified == true {
                         Image(systemName: "checkmark.seal.fill")
-                            .foregroundColor(twitterBlue)
+                            .foregroundColor(brandBlue)
                             .font(.caption2)
                     }
 

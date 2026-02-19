@@ -1,6 +1,6 @@
 //
 //  TrendsModel.swift
-//  Chirp
+//  Revolution
 //
 //  Created by Juan Palacio on 21.07.202417.12.2023.
 //

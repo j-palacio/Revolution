@@ -1,6 +1,6 @@
 //
 //  NotificationRepository.swift
-//  Chirp
+//  Revolution
 //
 //  Created by Juan Palacio on 11.12.2025.
 //

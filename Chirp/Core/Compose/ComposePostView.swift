@@ -1,6 +1,6 @@
 //
 //  ComposePostView.swift
-//  Chirp
+//  Revolution
 //
 //  Created by Juan Palacio on 06.12.2024.
 //

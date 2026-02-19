@@ -1,6 +1,6 @@
 //
 //  ExploreCategoryTabs.swift
-//  Chirp
+//  Revolution
 //
 //  Created by Juan Palacio on 10.12.2025.
 //
@@ -11,7 +11,7 @@ struct ExploreCategoryTabs: View {
     @Binding var selectedCategory: ExploreCategory
     @Namespace private var animation
 
-    private let twitterBlue = Color(UIColor(red: 29/255, green: 161/255, blue: 242/255, alpha: 1.0))
+    private let brandBlue = Color(UIColor(red: 29/255, green: 161/255, blue: 242/255, alpha: 1.0))
 
     var body: some View {
         ScrollView(.horizontal, showsIndicators: false) {
@@ -41,7 +41,7 @@ struct CategoryTab: View {
     let isSelected: Bool
     var animation: Namespace.ID
 
-    private let twitterBlue = Color(UIColor(red: 29/255, green: 161/255, blue: 242/255, alpha: 1.0))
+    private let brandBlue = Color(UIColor(red: 29/255, green: 161/255, blue: 242/255, alpha: 1.0))
 
     var body: some View {
         VStack(spacing: 8) {
@@ -60,7 +60,7 @@ struct CategoryTab: View {
 
                 if isSelected {
                     Rectangle()
-                        .fill(twitterBlue)
+                        .fill(brandBlue)
                         .frame(height: 3)
                         .matchedGeometryEffect(id: "TAB_INDICATOR", in: animation)
                 }

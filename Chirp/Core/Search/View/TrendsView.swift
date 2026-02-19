@@ -1,6 +1,6 @@
 //
 //  TrendsView.swift
-//  Chirp
+//  Revolution
 //
 //  Created by Juan Palacio on 10.12.2025.
 //
@@ -17,7 +17,7 @@ struct TrendsView: View {
 
     private let newsService = NewsService.shared
     private let trendsRepository = TrendsRepository()
-    private let twitterBlue = Color(UIColor(red: 29/255, green: 161/255, blue: 242/255, alpha: 1.0))
+    private let brandBlue = Color(UIColor(red: 29/255, green: 161/255, blue: 242/255, alpha: 1.0))
 
     var body: some View {
         VStack(spacing: 0) {
@@ -45,7 +45,7 @@ struct TrendsView: View {
                                     await loadContent()
                                 }
                             }
-                            .foregroundColor(twitterBlue)
+                            .foregroundColor(brandBlue)
                         }
                         .padding(.top, 40)
                         .padding(.horizontal)
@@ -108,7 +108,7 @@ struct TrendsView: View {
                 } label: {
                     HStack {
                         Text("Show more")
-                            .foregroundColor(twitterBlue)
+                            .foregroundColor(brandBlue)
                         Spacer()
                         Image(systemName: "chevron.right")
                             .font(.caption)

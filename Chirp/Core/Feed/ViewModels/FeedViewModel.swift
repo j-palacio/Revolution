@@ -1,6 +1,6 @@
 //
 //  FeedViewModel.swift
-//  Chirp
+//  Revolution
 //
 //  Created by Juan Palacio on 05.12.2025.
 //

@@ -1,6 +1,6 @@
 //
 //  EditProfileView.swift
-//  Chirp
+//  Revolution
 //
 //  Created by Juan Palacio on 08.12.2025.
 //
@@ -23,7 +23,7 @@ struct EditProfileView: View {
     @State private var isSaving = false
     @State private var errorMessage: String?
 
-    private let twitterBlue = Color(UIColor(red: 29/255, green: 161/255, blue: 242/255, alpha: 1.0))
+    private let brandBlue = Color(UIColor(red: 29/255, green: 161/255, blue: 242/255, alpha: 1.0))
     private let supabase = SupabaseManager.shared.client
 
     var body: some View {
@@ -68,7 +68,7 @@ struct EditProfileView: View {
                                     .font(.system(size: 14))
                                     .foregroundColor(.white)
                                     .padding(8)
-                                    .background(twitterBlue)
+                                    .background(brandBlue)
                                     .clipShape(Circle())
                             }
                         }

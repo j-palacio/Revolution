@@ -36,7 +36,7 @@ struct SplashView: View {
                 SignUpView()
                 
                 VStack {
-                    Image("TwitterLogo")
+                    Image("RevolutionLogo")
                         .renderingMode(/*@START_MENU_TOKEN@*/.template/*@END_MENU_TOKEN@*/)
                         .resizable()
                         .aspectRatio(contentMode: .fit)

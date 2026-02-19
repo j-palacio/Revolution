@@ -1,6 +1,6 @@
 //
 //  CommunityCard.swift
-//  Chirp
+//  Revolution
 //
 //  Created by Juan Palacio on 21.07.2024
 //
@@ -134,5 +134,5 @@ struct CommunityCard: View {
 }
 
 #Preview {
-    CommunityCard(image: "TwitterLogo", title: "Livestreaming on Twitter", numberOfMembers: "8k members")
+    CommunityCard(image: "RevolutionLogo", title: "Livestreaming on Revolution", numberOfMembers: "8k members")
 }

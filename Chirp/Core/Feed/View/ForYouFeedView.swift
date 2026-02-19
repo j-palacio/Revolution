@@ -1,6 +1,6 @@
 //
 //  ForYouFeedView.swift
-//  Chirp
+//  Revolution
 //
 //  Created by Juan Palacio on 21.07.202425.11.2023.
 //
@@ -157,7 +157,7 @@ struct PostRowView: View {
     @State private var showProfile = false
 
     private let postRepository = PostRepository()
-    private let twitterBlue = Color(UIColor(red: 29/255, green: 161/255, blue: 242/255, alpha: 1.0))
+    private let brandBlue = Color(UIColor(red: 29/255, green: 161/255, blue: 242/255, alpha: 1.0))
 
     init(post: Post) {
         self.post = post
@@ -211,7 +211,7 @@ struct PostRowView: View {
                         // Verified badge
                         if post.author?.isVerified == true {
                             Image(systemName: "checkmark.seal.fill")
-                                .foregroundColor(twitterBlue)
+                                .foregroundColor(brandBlue)
                                 .font(.caption)
                         }
 

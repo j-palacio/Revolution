@@ -1,6 +1,6 @@
 //
 //  ProfileView.swift
-//  Chirp
+//  Revolution
 //
 //  Created by Juan Palacio on 21.07.202427.11.2023.
 //
@@ -38,7 +38,7 @@ struct ProfileView: View {
 
     private let postRepository = PostRepository()
     private let profileRepository = ProfileRepository()
-    private let twitterBlue = Color(UIColor(red: 29/255, green: 161/255, blue: 242/255, alpha: 1.0))
+    private let brandBlue = Color(UIColor(red: 29/255, green: 161/255, blue: 242/255, alpha: 1.0))
 
     // The profile being displayed (fetched fresh, or fallback to passed/current)
     private var displayProfile: Profile? {
@@ -147,13 +147,13 @@ struct ProfileView: View {
                                             .cornerRadius(0)
                                     } else {
                                         Rectangle()
-                                            .fill(twitterBlue)
+                                            .fill(brandBlue)
                                             .frame(width: getRect().width, height: minY > 0 ? 150 + minY : 150, alignment: .center)
                                     }
                                 }
                             } else {
                                 Rectangle()
-                                    .fill(twitterBlue)
+                                    .fill(brandBlue)
                                     .frame(width: getRect().width, height: minY > 0 ? 150 + minY : 150, alignment: .center)
                             }
 
@@ -307,7 +307,7 @@ struct ProfileView: View {
                                         .padding(.horizontal, 20)
                                         .padding(.vertical, 8)
                                         .foregroundColor(isFollowing ? .primary : .white)
-                                        .background(isFollowing ? Color.clear : twitterBlue)
+                                        .background(isFollowing ? Color.clear : brandBlue)
                                         .background(
                                             Capsule()
                                                 .stroke(isFollowing ? Color(.systemGray3) : Color.clear, lineWidth: 1)
@@ -332,7 +332,7 @@ struct ProfileView: View {
                             //Verified badge
                             if displayProfile?.isVerified == true {
                                 Image(systemName: "checkmark.seal.fill")
-                                    .foregroundColor(twitterBlue)
+                                    .foregroundColor(brandBlue)
                                     .font(.title3)
                             }
                             //Curated voice badge

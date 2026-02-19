@@ -1,6 +1,6 @@
 //
 //  SignInView.swift
-//  Chirp
+//  Revolution
 //
 //  Created by Juan Palacio on 21.07.202423.11.2023.
 //
@@ -23,8 +23,8 @@ struct SignInView: View {
     var body: some View {
         NavigationStack {
             VStack(spacing: 10) {
-                // twitter logo
-                TwitterLogo(frameWidth: 30, paddingTop: 15)
+                // app logo
+                RevolutionLogo(frameWidth: 30, paddingTop: 15)
                 Spacer()
                 // hero text
                 HeroText()
@@ -86,7 +86,7 @@ struct SignInView: View {
 
 struct HeroText: View {
     var body: some View {
-        Text("Sign in to twitter")
+        Text("Sign in to Revolution")
             .font(.title)
             .fontWeight(.heavy)
             .padding(.bottom, 15)

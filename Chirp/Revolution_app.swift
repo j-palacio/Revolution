@@ -1,6 +1,6 @@
 //
-//  Chirp.swift
-//  Chirp
+//  Revolution.swift
+//  Revolution
 //
 //  Created by Juan Palacio on 21.07.202420.11.2023.
 //
@@ -9,7 +9,7 @@ import SwiftUI
 import Supabase
 
 @main
-struct Chirp_App: App {
+struct Revolution_App: App {
     @StateObject private var authManager = AuthManager()
 
     var body: some Scene {
@@ -77,7 +77,7 @@ struct SplashAnimationView: View {
 
     var body: some View {
         VStack {
-            Image("TwitterLogo")
+            Image("RevolutionLogo")
                 .renderingMode(.template)
                 .resizable()
                 .aspectRatio(contentMode: .fit)
