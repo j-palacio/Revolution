@@ -9,8 +9,9 @@ final class SupabaseManager {
 
     private init() {
         client = SupabaseClient(
-            supabaseURL: URL(string: "https://gxmssvosvlznfbunnjxi.supabase.co")!,
-            supabaseKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imd4bXNzdm9zdmx6bmZidW5uanhpIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjQ5OTA3MTEsImV4cCI6MjA4MDU2NjcxMX0.vjF9vJ_ceCtWwYUbaiw3_lnmWIfIe36cQTOAiyzjhYk"
+            supabaseURL: URL(string: "https://dvubepapjcaaelteazup.supabase.co")!,
+            supabaseKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImR2dWJlcGFwamNhYWVsdGVhenVwIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODE3NDY5MjgsImV4cCI6MjA5NzMyMjkyOH0.7omAYaoO4mdXs4TsulXNP4FmrKGAlbMnvJrYtrY3uWI",
+            options: .init(auth: .init(emitLocalSessionAsInitialSession: true))
         )
     }
 }

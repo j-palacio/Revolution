@@ -80,37 +80,13 @@ final class AuthManager: ObservableObject {
         }
     }
 
-    /// Look up email by username from profiles table
+    /// Look up email by username via secure RPC (auth.users is not directly accessible from client)
     private func lookupEmailByUsername(username: String) async throws -> String? {
-        struct UserEmail: Decodable {
-            let id: UUID
-        }
-
-        // Get user ID from profiles (case-insensitive)
-        let profile: UserEmail? = try? await supabase
-            .from("profiles")
-            .select("id")
-            .ilike("username", pattern: username)
-            .single()
+        let email: String? = try? await supabase
+            .rpc("get_email_by_username", params: ["p_username": username])
             .execute()
             .value
-
-        guard let userId = profile?.id else { return nil }
-
-        // Get email from auth.users (via RPC or direct query if allowed)
-        struct AuthUser: Decodable {
-            let email: String?
-        }
-
-        let authUser: AuthUser? = try? await supabase
-            .from("users")
-            .select("email")
-            .eq("id", value: userId)
-            .single()
-            .execute()
-            .value
-
-        return authUser?.email
+        return email
     }
 
     func signInWithEmail(email: String, password: String) async throws {
