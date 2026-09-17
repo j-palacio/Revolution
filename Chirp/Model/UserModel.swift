@@ -55,12 +55,14 @@ struct ProfileInsert: Codable {
 // MARK: - Profile Update (for updating profiles)
 
 struct ProfileUpdate: Codable {
+    var username: String?
     var fullName: String?
     var bio: String?
     var avatarUrl: String?
     var bannerUrl: String?
 
     enum CodingKeys: String, CodingKey {
+        case username
         case fullName = "full_name"
         case bio
         case avatarUrl = "avatar_url"

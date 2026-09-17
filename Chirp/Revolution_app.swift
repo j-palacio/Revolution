@@ -47,7 +47,11 @@ struct RootView: View {
             } else if authManager.isLoading {
                 LoadingView()
             } else if authManager.isAuthenticated {
-                TabNavigationView()
+                if authManager.needsUsernameSetup {
+                    UsernameSetupView()
+                } else {
+                    TabNavigationView()
+                }
             } else {
                 NavigationView {
                     SignUpView()

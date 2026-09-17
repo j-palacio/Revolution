@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		170224AF2B164692004DD4F5 /* ProfilePostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170224AE2B164692004DD4F5 /* ProfilePostViewModel.swift */; };
 		17085EAA2B0E652000B3D092 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17085EA92B0E652000B3D092 /* SignUpView.swift */; };
+		CF1E5E828C628484EE05EF86 /* UsernameSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FDF91B22E178C2558E45D8 /* UsernameSetupView.swift */; };
 		170A35AC2B190663006F4AE3 /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170A35AB2B190663006F4AE3 /* TabButton.swift */; };
 		170A35AE2B1908A5006F4AE3 /* CustomTabsBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170A35AD2B1908A5006F4AE3 /* CustomTabsBar.swift */; };
 		1711D2802B0FAB57005253EC /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1711D27F2B0FAB56005253EC /* SignInView.swift */; };
@@ -77,6 +78,7 @@
 		040B4FE6053A4DF67DC20D3F /* TrendsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TrendsView.swift; path = TrendsView.swift; sourceTree = "<group>"; };
 		170224AE2B164692004DD4F5 /* ProfilePostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePostViewModel.swift; sourceTree = "<group>"; };
 		17085EA92B0E652000B3D092 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		23FDF91B22E178C2558E45D8 /* UsernameSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsernameSetupView.swift; sourceTree = "<group>"; };
 		170A35AB2B190663006F4AE3 /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
 		170A35AD2B1908A5006F4AE3 /* CustomTabsBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabsBar.swift; sourceTree = "<group>"; };
 		1711D27F2B0FAB56005253EC /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
@@ -249,6 +251,7 @@
 			children = (
 				1711D27C2B0FA85B005253EC /* SignIn */,
 				1711D27B2B0FA849005253EC /* SignUp */,
+				FD6A09E7BC755DF4B9DE18E3 /* UsernameSetup */,
 			);
 			path = Auth;
 			sourceTree = "<group>";
@@ -294,6 +297,22 @@
 				1711D27D2B0FA861005253EC /* View */,
 			);
 			path = SignIn;
+			sourceTree = "<group>";
+		};
+		FD6A09E7BC755DF4B9DE18E3 /* UsernameSetup */ = {
+			isa = PBXGroup;
+			children = (
+				97A7C13D64854C0B4D9E6E4A /* View */,
+			);
+			path = UsernameSetup;
+			sourceTree = "<group>";
+		};
+		97A7C13D64854C0B4D9E6E4A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				23FDF91B22E178C2558E45D8 /* UsernameSetupView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		1711D27D2B0FA861005253EC /* View */ = {
@@ -654,6 +673,7 @@
 				17FB4A762B10AED4008C68FE /* FeedScreen.swift in Sources */,
 				17E652A22B3605DD00AE555A /* NotificationCard.swift in Sources */,
 				17085EAA2B0E652000B3D092 /* SignUpView.swift in Sources */,
+				CF1E5E828C628484EE05EF86 /* UsernameSetupView.swift in Sources */,
 				17ABFEB72B14B0C200C02615 /* ProfileView.swift in Sources */,
 				17FB4AA42B12114B008C68FE /* MentionNotificationsView.swift in Sources */,
 				1725D76D2B137F2400BC0813 /* UserModel.swift in Sources */,
@@ -834,6 +854,7 @@
 				DEVELOPMENT_TEAM = WJ73377FX8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Chirp/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Revolution;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -865,6 +886,7 @@
 				DEVELOPMENT_TEAM = WJ73377FX8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Chirp/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Revolution;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

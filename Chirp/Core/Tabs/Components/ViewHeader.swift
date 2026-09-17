@@ -20,18 +20,29 @@ struct ViewHeader: View {
 
 
             //avatar image
-            AsyncImage(url: URL(string: authManager.currentProfile?.avatarUrl ?? "")) { phase in
-                if let image = phase.image {
-                    image
-                        .resizable()
-                        .aspectRatio(contentMode: /*@START_MENU_TOKEN@*/.fill/*@END_MENU_TOKEN@*/)
-                        .frame(width:32,height: 32)
-                        .cornerRadius(99)
-
-                } else if phase.error != nil {
-                    Color.red // Indicates an error.
+            Group {
+                if let avatarUrl = authManager.currentProfile?.avatarUrl, let url = URL(string: avatarUrl) {
+                    AsyncImage(url: url) { phase in
+                        if let image = phase.image {
+                            image
+                                .resizable()
+                                .aspectRatio(contentMode: .fill)
+                                .frame(width: 32, height: 32)
+                                .cornerRadius(99)
+                        } else {
+                            Image(systemName: "person.circle.fill")
+                                .resizable()
+                                .aspectRatio(contentMode: .fill)
+                                .frame(width: 32, height: 32)
+                                .foregroundColor(.gray)
+                        }
+                    }
                 } else {
-                    ProgressView()
+                    Image(systemName: "person.circle.fill")
+                        .resizable()
+                        .aspectRatio(contentMode: .fill)
+                        .frame(width: 32, height: 32)
+                        .foregroundColor(.gray)
                 }
             }
             .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, alignment: .leading)// Displays the loaded image.

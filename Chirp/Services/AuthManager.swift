@@ -13,6 +13,13 @@ final class AuthManager: ObservableObject {
 
     private let supabase = SupabaseManager.shared.client
 
+    /// True when the current profile still has an auto-generated username
+    /// (e.g. from an OAuth sign-up where the provider didn't supply one)
+    var needsUsernameSetup: Bool {
+        guard let username = currentProfile?.username else { return false }
+        return username.range(of: #"^user_[0-9a-f]{8}$"#, options: .regularExpression) != nil
+    }
+
     init() {
         Task {
             await checkSession()
@@ -120,7 +127,8 @@ final class AuthManager: ObservableObject {
         do {
             try await supabase.auth.signInWithOAuth(
                 provider: .google,
-                redirectTo: URL(string: "revolution://auth/callback")
+                redirectTo: URL(string: "revolution://auth/callback"),
+                queryParams: [("prompt", "select_account")]
             )
         } catch {
             self.authError = error.localizedDescription
